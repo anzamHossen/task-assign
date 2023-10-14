@@ -153,24 +153,15 @@
                                 <h3 class="heading">Task Assign</h3>
                                 @foreach ($getTask as $task )
                                     <p class="task" draggable="true">{{ $task->task_name.' '.$task->task_priority. ' '.$task->task_timestamp}}</p>
-                                    {{-- <p class="task" draggable="true">Create Webpage</p>
-                                    <p class="task" draggable="true">Page Dynamic</p>
-                                    <p class="task" draggable="true">Application Done<p> --}}
                                 @endforeach
                             </div>
 
                             <div class="swim-lane">
                                 <h3 class="heading">Doing</h3>
-
-                                {{-- <p class="task" draggable="true">Check It</p> --}}
                             </div>
 
                             <div class="swim-lane">
                                 <h3 class="heading">Done</h3>
-
-                                {{-- <p class="task" draggable="true">
-                                    Hava nice day
-                                </p> --}}
                             </div>
                         </div>
                     </div>

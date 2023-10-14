@@ -19,6 +19,7 @@
         <section class="section py-5">
             <div class="section-body">
                 <div class="container">
+                    <a href="{{ route('show_task_page') }}" class="btn btn-primary">Show Task</a>
                     <div class="col-12 py-3">
                         @if (session()->has('message'))
                             <div class="alert bg-info">
@@ -33,7 +34,7 @@
                             @endforeach
                         @endif  
                     </div>  
-
+                    
                     <div class="row">
                         <div class="col-md-12">
                             <div class="table-renponsive">
